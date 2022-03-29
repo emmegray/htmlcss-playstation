@@ -16,6 +16,45 @@ header .navbar-nav a i:not(.fa-magnifying-glass) {
 
 /* MAIN */
 
+.jumbotron {
+    min-height: 580px;
+}
 
+.jumbotron *:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.jumbotron img {
+    max-width: 60%;
+}
+
+.returnal {
+    background-image: url(img/jumbo-bg.png);
+    color: white;
+}
+
+.covers {
+    padding: 20px 0;
+}
+
+.covers img {
+    width: 100%;
+    height: 100%;
+    border: white solid 2px;
+    border-radius: 10px;
+}
+
+.covers > div {
+    padding: 10px 20px;
+}
+
+.covers .mask {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.covers .mask:hover {
+    transform: translateY(-10px);
+}
 
 /* FOOTER */
