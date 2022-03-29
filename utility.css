@@ -1,9 +1,16 @@
-/* DEBUG */
-
 * {
+  /* DEBUG */
   border: 1px solid red;
+
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .col img {
   width: 100%;
+}
+
+.btn {
+  border-radius: 1.2rem;
+  padding: auto 1.2rem;
+  font-weight: bold;
 }

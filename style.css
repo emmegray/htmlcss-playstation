@@ -1,7 +1,23 @@
+/* HEADER */
+
 header .sony-logo {
     height: 14px;
+    margin-bottom: 5px;
 }
 
 header div:first-child {
     padding: 2px;
 }
+
+header .navbar-nav li {
+    color: #909090;
+    font-weight: bold;
+}
+
+header .navbar-nav a i:not(.fa-magnifying-glass) {
+    color: lightgrey;
+}
+
+/* MAIN */
+
+/* FOOTER */
