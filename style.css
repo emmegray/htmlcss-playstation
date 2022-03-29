@@ -1,0 +1,7 @@
+header .sony-logo {
+    height: 14px;
+}
+
+header div:first-child {
+    padding: 2px;
+}
