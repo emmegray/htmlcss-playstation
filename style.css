@@ -28,18 +28,21 @@ header .navbar-nav a i:not(.fa-magnifying-glass) {
     max-width: 60%;
 }
 
-.returnal {
-    background-image: url(img/jumbo-bg.png);
+.games .jumbotron, .returnal {
     color: white;
-    position: relative;
+    background-size: cover;
 }
 
-.returnal div {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-    max-width: 50%;
-    display: inline;
+.returnal {
+    background-image: url(img/jumbo-bg.png);
+}
+
+.games .jumbotron div, 
+.returnal.jumbotron div, 
+.plus .jumbotron div, 
+.now .jumbotron div {
+    width: 100%;
+    max-width: 460px;
 }
 
 .covers {
@@ -81,13 +84,47 @@ header .navbar-nav a i:not(.fa-magnifying-glass) {
 
 .products img {
     width: 100%;
-    height: 100%;
+}
+
+.slides > div{
+    padding-bottom: 10px;
+    opacity: 0.80;
+}
+
+.slides > div:hover {
+    border-bottom: 2px solid #00439c;
+    padding-bottom: 8px;
+    opacity: 1;
+}
+
+.games {
+    background-color: #1f1f1f;
+    color: white;
 }
 
 .games .jumbotron {
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
-    color: white;
-    position: relative;
+}
+
+.releases img {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.releases > div.col-6 {
+    margin-bottom: 30px;
+}
+
+.explore img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.plus {
+    background: #bebcbb url(img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .now {
