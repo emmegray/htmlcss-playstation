@@ -127,8 +127,24 @@ header .navbar-nav a i:not(.fa-magnifying-glass) {
     background-position: right;
 }
 
+.sales img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
 .now {
-    background-color: #161c3b;
+    background: #161c3b url(img/ps-now-april-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.now p {
+    color: white;
+}
+
+.social img {
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 /* FOOTER */
