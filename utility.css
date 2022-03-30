@@ -9,9 +9,18 @@
   width: 100%;
 }
 
+.btn:hover {
+  outline: white solid 2px;
+}
+
 .btn-blue {
   background-color: #0070d1;
   color: white;
+}
+
+.btn-blue:hover {
+  color: white;
+  box-shadow: 0 0 0 5px #2d64e6;
 }
 
 .btn-red {
@@ -19,9 +28,19 @@
   color: white;
 }
 
+.btn-red:hover {
+  box-shadow: 0 0 0 5px red;
+  color: white;
+}
+
 .btn-white {
   color: #0070d1;
   background-color: white;
+}
+
+.btn-white:hover {
+  box-shadow: 0 0 0 5px white;
+  outline: black solid 2px;
 }
 
 .btn:not(.rounded) {
