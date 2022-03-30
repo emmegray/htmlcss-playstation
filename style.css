@@ -125,6 +125,7 @@ header .navbar-nav a i:not(.fa-magnifying-glass) {
     background: #bebcbb url(img/ps-plus-april-monthly-games-featured-image-block.png);
     background-repeat: no-repeat;
     background-position: right;
+    min-height: 732px;
 }
 
 .sales img {
@@ -156,4 +157,20 @@ footer {
 
 footer a {
     color: white;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .sie a{
+    text-decoration: underline;
+}
+
+footer .sie img {
+    width:  130px;
 }
