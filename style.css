@@ -10,8 +10,12 @@ header .navbar-nav li {
     font-weight: bold;
 }
 
-header .navbar-nav a i:not(.fa-magnifying-glass) {
+header .navbar-nav li.nav-item:not(:hover) a i:not(.fa-magnifying-glass) {
     color: lightgrey;
+}
+
+header .navbar-nav li.nav-item:hover a.nav-link {
+    color: #0070d1;
 }
 
 /* MAIN */
@@ -141,6 +145,10 @@ header .navbar-nav a i:not(.fa-magnifying-glass) {
 
 .now p {
     color: white;
+}
+
+.now button {
+    color: black;
 }
 
 .social img {
