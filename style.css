@@ -133,10 +133,16 @@ header .navbar-nav li.nav-item:hover a.nav-link {
 }
 
 .plus {
-    background: #bebcbb url(img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    min-height: 732px;
+    background: #bebcbb;
+}
+
+.plus img,.now img {
+    width: 100%;
+    height: auto;
+}
+
+.plus-logo,.now-logo {
+    max-width: 300px;
 }
 
 .sales img {
@@ -145,9 +151,7 @@ header .navbar-nav li.nav-item:hover a.nav-link {
 }
 
 .now {
-    background: #161c3b url(img/ps-now-april-featured-image-block.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    background: #161c3b;
 }
 
 .now p {
